@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4B1F05133008DB005A433E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F04133008DB005A433E /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C4B1EFE133008DB005A433E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C4B1F00133008DB005A433E /* g52cfj-icw2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "g52cfj-icw2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4B1F04133008DB005A433E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2C4B1F06133008DB005A433E /* g52cfj_icw2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = g52cfj_icw2.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4B1EFD133008DB005A433E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4B1EF5133008DB005A433E = {
+			isa = PBXGroup;
+			children = (
+				2C4B1F03133008DB005A433E /* g52cfj-icw2 */,
+				2C4B1F01133008DB005A433E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4B1F01133008DB005A433E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B1F00133008DB005A433E /* g52cfj-icw2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4B1F03133008DB005A433E /* g52cfj-icw2 */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B1F04133008DB005A433E /* main.cpp */,
+				2C4B1F06133008DB005A433E /* g52cfj_icw2.1 */,
+			);
+			path = "g52cfj-icw2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4B1EFF133008DB005A433E /* g52cfj-icw2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4B1F09133008DB005A433E /* Build configuration list for PBXNativeTarget "g52cfj-icw2" */;
+			buildPhases = (
+				2C4B1EFC133008DB005A433E /* Sources */,
+				2C4B1EFD133008DB005A433E /* Frameworks */,
+				2C4B1EFE133008DB005A433E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "g52cfj-icw2";
+			productName = "g52cfj-icw2";
+			productReference = 2C4B1F00133008DB005A433E /* g52cfj-icw2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4B1EF7133008DB005A433E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2C4B1EFA133008DB005A433E /* Build configuration list for PBXProject "g52cfj-icw2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C4B1EF5133008DB005A433E;
+			productRefGroup = 2C4B1F01133008DB005A433E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4B1EFF133008DB005A433E /* g52cfj-icw2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4B1EFC133008DB005A433E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4B1F05133008DB005A433E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C4B1F07133008DB005A433E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C4B1F08133008DB005A433E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C4B1F0A133008DB005A433E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C4B1F0B133008DB005A433E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4B1EFA133008DB005A433E /* Build configuration list for PBXProject "g52cfj-icw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4B1F07133008DB005A433E /* Debug */,
+				2C4B1F08133008DB005A433E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4B1F09133008DB005A433E /* Build configuration list for PBXNativeTarget "g52cfj-icw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4B1F0A133008DB005A433E /* Debug */,
+				2C4B1F0B133008DB005A433E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C4B1EF7133008DB005A433E /* Project object */;
+}
