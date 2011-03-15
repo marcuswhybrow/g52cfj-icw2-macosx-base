@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4B1F05133008DB005A433E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F04133008DB005A433E /* main.cpp */; };
+		2C4B1F4A13300B34005A433E /* BaseEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3513300B34005A433E /* BaseEngine.cpp */; };
+		2C4B1F4B13300B34005A433E /* BouncingBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3713300B34005A433E /* BouncingBall.cpp */; };
+		2C4B1F4C13300B34005A433E /* BouncingBallMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3913300B34005A433E /* BouncingBallMain.cpp */; };
+		2C4B1F4D13300B34005A433E /* DisplayableObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3C13300B34005A433E /* DisplayableObject.cpp */; };
+		2C4B1F4E13300B34005A433E /* FontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F3E13300B34005A433E /* FontManager.cpp */; };
+		2C4B1F4F13300B34005A433E /* JPGImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F4113300B34005A433E /* JPGImage.cpp */; };
+		2C4B1F5013300B34005A433E /* mainfunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F4313300B34005A433E /* mainfunction.cpp */; };
+		2C4B1F5113300B34005A433E /* MyProjectMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F4513300B34005A433E /* MyProjectMain.cpp */; };
+		2C4B1F5213300B34005A433E /* TileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B1F4813300B34005A433E /* TileManager.cpp */; };
+		2C4B1F5C13301035005A433E /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4B1F5913301035005A433E /* SDL.framework */; };
+		2C4B1F5D13301035005A433E /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4B1F5A13301035005A433E /* SDL_image.framework */; };
+		2C4B1F5E13301035005A433E /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4B1F5B13301035005A433E /* SDL_ttf.framework */; };
+		2C4B1F7C13301665005A433E /* libSDLmain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4B1F7B13301665005A433E /* libSDLmain.a */; };
+		2C4B1F9513301897005A433E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4B1F9413301897005A433E /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +37,32 @@
 
 /* Begin PBXFileReference section */
 		2C4B1F00133008DB005A433E /* g52cfj-icw2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "g52cfj-icw2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4B1F04133008DB005A433E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2C4B1F06133008DB005A433E /* g52cfj_icw2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = g52cfj_icw2.1; sourceTree = "<group>"; };
+		2C4B1F3513300B34005A433E /* BaseEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseEngine.cpp; sourceTree = "<group>"; };
+		2C4B1F3613300B34005A433E /* BaseEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEngine.h; sourceTree = "<group>"; };
+		2C4B1F3713300B34005A433E /* BouncingBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BouncingBall.cpp; sourceTree = "<group>"; };
+		2C4B1F3813300B34005A433E /* BouncingBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncingBall.h; sourceTree = "<group>"; };
+		2C4B1F3913300B34005A433E /* BouncingBallMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BouncingBallMain.cpp; sourceTree = "<group>"; };
+		2C4B1F3A13300B34005A433E /* BouncingBallMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncingBallMain.h; sourceTree = "<group>"; };
+		2C4B1F3B13300B34005A433E /* DisplayableArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayableArc.h; sourceTree = "<group>"; };
+		2C4B1F3C13300B34005A433E /* DisplayableObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisplayableObject.cpp; sourceTree = "<group>"; };
+		2C4B1F3D13300B34005A433E /* DisplayableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayableObject.h; sourceTree = "<group>"; };
+		2C4B1F3E13300B34005A433E /* FontManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FontManager.cpp; sourceTree = "<group>"; };
+		2C4B1F3F13300B34005A433E /* FontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontManager.h; sourceTree = "<group>"; };
+		2C4B1F4013300B34005A433E /* g52cfj_icw2.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = g52cfj_icw2.1; sourceTree = "<group>"; };
+		2C4B1F4113300B34005A433E /* JPGImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JPGImage.cpp; sourceTree = "<group>"; };
+		2C4B1F4213300B34005A433E /* JPGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPGImage.h; sourceTree = "<group>"; };
+		2C4B1F4313300B34005A433E /* mainfunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainfunction.cpp; sourceTree = "<group>"; };
+		2C4B1F4413300B34005A433E /* MovementPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementPosition.h; sourceTree = "<group>"; };
+		2C4B1F4513300B34005A433E /* MyProjectMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyProjectMain.cpp; sourceTree = "<group>"; };
+		2C4B1F4613300B34005A433E /* MyProjectMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProjectMain.h; sourceTree = "<group>"; };
+		2C4B1F4713300B34005A433E /* templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = templates.h; sourceTree = "<group>"; };
+		2C4B1F4813300B34005A433E /* TileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileManager.cpp; sourceTree = "<group>"; };
+		2C4B1F4913300B34005A433E /* TileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileManager.h; sourceTree = "<group>"; };
+		2C4B1F5913301035005A433E /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Library/Frameworks/SDL.framework; sourceTree = SDKROOT; };
+		2C4B1F5A13301035005A433E /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Library/Frameworks/SDL_image.framework; sourceTree = SDKROOT; };
+		2C4B1F5B13301035005A433E /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = Library/Frameworks/SDL_ttf.framework; sourceTree = SDKROOT; };
+		2C4B1F7B13301665005A433E /* libSDLmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDLmain.a; path = ../../../../../../../../opt/local/lib/libSDLmain.a; sourceTree = "<group>"; };
+		2C4B1F9413301897005A433E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4B1F9513301897005A433E /* Cocoa.framework in Frameworks */,
+				2C4B1F7C13301665005A433E /* libSDLmain.a in Frameworks */,
+				2C4B1F5C13301035005A433E /* SDL.framework in Frameworks */,
+				2C4B1F5D13301035005A433E /* SDL_image.framework in Frameworks */,
+				2C4B1F5E13301035005A433E /* SDL_ttf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +84,12 @@
 		2C4B1EF5133008DB005A433E = {
 			isa = PBXGroup;
 			children = (
-				2C4B1F03133008DB005A433E /* g52cfj-icw2 */,
+				2C4B1F9413301897005A433E /* Cocoa.framework */,
+				2C4B1F7B13301665005A433E /* libSDLmain.a */,
+				2C4B1F5913301035005A433E /* SDL.framework */,
+				2C4B1F5A13301035005A433E /* SDL_image.framework */,
+				2C4B1F5B13301035005A433E /* SDL_ttf.framework */,
+				2C4B1F3413300B34005A433E /* g52cfj-icw2 */,
 				2C4B1F01133008DB005A433E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,11 +102,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C4B1F03133008DB005A433E /* g52cfj-icw2 */ = {
+		2C4B1F3413300B34005A433E /* g52cfj-icw2 */ = {
 			isa = PBXGroup;
 			children = (
-				2C4B1F04133008DB005A433E /* main.cpp */,
-				2C4B1F06133008DB005A433E /* g52cfj_icw2.1 */,
+				2C4B1F3513300B34005A433E /* BaseEngine.cpp */,
+				2C4B1F3613300B34005A433E /* BaseEngine.h */,
+				2C4B1F3713300B34005A433E /* BouncingBall.cpp */,
+				2C4B1F3813300B34005A433E /* BouncingBall.h */,
+				2C4B1F3913300B34005A433E /* BouncingBallMain.cpp */,
+				2C4B1F3A13300B34005A433E /* BouncingBallMain.h */,
+				2C4B1F3B13300B34005A433E /* DisplayableArc.h */,
+				2C4B1F3C13300B34005A433E /* DisplayableObject.cpp */,
+				2C4B1F3D13300B34005A433E /* DisplayableObject.h */,
+				2C4B1F3E13300B34005A433E /* FontManager.cpp */,
+				2C4B1F3F13300B34005A433E /* FontManager.h */,
+				2C4B1F4013300B34005A433E /* g52cfj_icw2.1 */,
+				2C4B1F4113300B34005A433E /* JPGImage.cpp */,
+				2C4B1F4213300B34005A433E /* JPGImage.h */,
+				2C4B1F4313300B34005A433E /* mainfunction.cpp */,
+				2C4B1F4413300B34005A433E /* MovementPosition.h */,
+				2C4B1F4513300B34005A433E /* MyProjectMain.cpp */,
+				2C4B1F4613300B34005A433E /* MyProjectMain.h */,
+				2C4B1F4713300B34005A433E /* templates.h */,
+				2C4B1F4813300B34005A433E /* TileManager.cpp */,
+				2C4B1F4913300B34005A433E /* TileManager.h */,
 			);
 			path = "g52cfj-icw2";
 			sourceTree = "<group>";
@@ -111,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4B1F05133008DB005A433E /* main.cpp in Sources */,
+				2C4B1F4A13300B34005A433E /* BaseEngine.cpp in Sources */,
+				2C4B1F4B13300B34005A433E /* BouncingBall.cpp in Sources */,
+				2C4B1F4C13300B34005A433E /* BouncingBallMain.cpp in Sources */,
+				2C4B1F4D13300B34005A433E /* DisplayableObject.cpp in Sources */,
+				2C4B1F4E13300B34005A433E /* FontManager.cpp in Sources */,
+				2C4B1F4F13300B34005A433E /* JPGImage.cpp in Sources */,
+				2C4B1F5013300B34005A433E /* mainfunction.cpp in Sources */,
+				2C4B1F5113300B34005A433E /* MyProjectMain.cpp in Sources */,
+				2C4B1F5213300B34005A433E /* TileManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,10 +227,20 @@
 		2C4B1F0A133008DB005A433E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/SDL_ttf.framework/Headers/**",
+					"/Library/Frameworks/SDL.framework/Headers/**",
+					"/Library/Frameworks/SDL_image.framework/Headers/**",
+					"/opt/local/include/SDL/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -164,10 +248,20 @@
 		2C4B1F0B133008DB005A433E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/SDL_ttf.framework/Headers/**",
+					"/Library/Frameworks/SDL.framework/Headers/**",
+					"/Library/Frameworks/SDL_image.framework/Headers/**",
+					"/opt/local/include/SDL/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -191,6 +285,7 @@
 				2C4B1F0B133008DB005A433E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
